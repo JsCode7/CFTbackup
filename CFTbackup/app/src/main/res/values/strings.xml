@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CFTbackup</string>
+    <string name="alumno">Alumno</string>
+    <string name="profesor">Profesor</string>
+    <string name="curso">Curso</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="codigo_curso">Codigo Curso</string>
+    <string name="nombre_del_curso">Nombre del curso</string>
+    <string name="cupo_del_curso">Cupo del curso</string>
+    <string name="codigo_del_profesor">Codigo del profesor</string>
+    <string name="insertar_cursos">Ingreso de Cursos</string>
+    <string name="ingreso_de_alumnos">Ingreso de Alumnos</string>
+    <string name="ingreso_de_profesores">Ingreso de Profesores</string>
+    <string name="menuprincipal">Selecciona lo que vas a ingresar:</string>
+    <string name="menu_principal">Menu Principal</string>
+
+</resources>

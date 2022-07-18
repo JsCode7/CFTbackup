@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wp2"
+    tools:context=".curso">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="356dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="28dp"
+        android:gravity="center"
+        android:text="@string/insertar_cursos"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/txt_codcurso"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/txt_codcurso"
+        android:layout_width="321dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:hint="@string/codigo_curso"
+        android:textColorHint="@color/darkblue"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.156" />
+
+
+    <EditText
+        android:id="@+id/txt_nombrecurso"
+        android:layout_width="321dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:hint="@string/nombre_del_curso"
+        android:textColorHint="@color/darkblue"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.258" />
+
+    <EditText
+        android:id="@+id/txt_cupo"
+        android:layout_width="321dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:hint="@string/cupo_del_curso"
+        android:textColorHint="@color/darkblue"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.356" />
+
+    <EditText
+        android:id="@+id/txt_codprof"
+        android:layout_width="321dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:hint="@string/codigo_del_profesor"
+        android:textColorHint="@color/darkblue"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.448" />
+
+    <Button
+        android:id="@+id/bt_registrarProducto"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/darkblue"
+        android:onClick="Registrar3"
+        android:text="Registrar Curso"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.603" />
+
+    <Button
+        android:id="@+id/bt_buscarProducto"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/darkblue"
+        android:onClick="Buscar3"
+        android:text="Buscar Curso"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.693" />
+
+    <Button
+        android:id="@+id/bt_modificarProducto"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/darkblue"
+        android:onClick="Modificar3"
+        android:text="Modificar Curso"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.79" />
+
+    <Button
+        android:id="@+id/bt_eliminarProducto"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/darkblue"
+        android:onClick="Eliminar3"
+        android:text="Eliminar Curso"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.881" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

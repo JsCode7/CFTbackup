@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wp2"
+    tools:context=".alumno">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="356dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="36dp"
+        android:gravity="center"
+        android:text="@string/ingreso_de_alumnos"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/txt_cod"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/txt_cod"
+        android:layout_width="321dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:hint="Codigo Alumno"
+        android:textColorHint="@color/darkblue"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.156" />
+
+
+    <EditText
+        android:id="@+id/txt_nombre"
+        android:layout_width="321dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:hint="Nombre y Apellido"
+        android:inputType="text"
+        android:textColorHint="@color/darkblue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.349" />
+
+    <EditText
+        android:id="@+id/txt_edad"
+        android:layout_width="321dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:hint="Edad del alumno"
+        android:inputType="text"
+        android:textColorHint="@color/darkblue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.253" />
+
+    <Button
+        android:id="@+id/bt_registrarProducto"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#34495e"
+        android:onClick="Registrar"
+        android:text="Registrar Alumno"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.641" />
+
+    <Button
+        android:id="@+id/bt_buscarProducto"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#34495e"
+        android:onClick="Buscar"
+        android:text="Buscar Alumno"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.723" />
+
+    <Button
+        android:id="@+id/bt_modificarProducto"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#34495e"
+        android:onClick="Modificar"
+        android:text="Modificar Alumno"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.806" />
+
+    <Button
+        android:id="@+id/bt_eliminarProducto"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#34495e"
+        android:onClick="Eliminar"
+        android:text="Eliminar Alumno"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.89" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
